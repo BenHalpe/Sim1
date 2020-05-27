@@ -8,13 +8,37 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/user/Desktop/technion/Digital_Simulations/Sim1
-vfas
+valu1bit
 Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1590584556
+!i10b 1
+!s100 OMD0^_<9L[e[1l6iF6]_60
+I^>aGVznc2E46]UOUU<l@I0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu1bit_sv_unit
+S1
+R0
+w1590584490
+8alu1bit.sv
+Falu1bit.sv
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1590584556.000000
+!s107 alu1bit.sv|
+!s90 -reportprogress|300|alu1bit.sv|
+!s101 -O0
+!i113 1
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfas
+R1
 !s110 1590510957
 !i10b 1
 !s100 Y@J=^PzfFk@HiVbT2DAL92
 I772S:azofaO0H:aD6WV^73
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 !s105 fas_sv_unit
 S1
 R0
@@ -22,7 +46,7 @@ w1590510956
 8fas.sv
 Ffas.sv
 L0 2
-Z3 OP;L;10.4a;61
+R3
 r1
 !s85 0
 31
@@ -31,7 +55,7 @@ r1
 !s90 -reportprogress|300|fas.sv|
 !s101 -O0
 !i113 1
-Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+R4
 vfas_test
 R1
 !s110 1590575753
