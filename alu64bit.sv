@@ -11,12 +11,12 @@ module alu64bit (
 // Put your code here
 // ------------------
 	logic [63:0] midCout;
-	alu1bit (.a(a[0]), .b(b[0]), .cin(cin), .op(op), .s(s[0]), .cout(midCout[0]));
+	alu1bit inst_first (.a(a[0]), .b(b[0]), .cin(cin), .op(op), .s(s[0]), .cout(midCout[0]));
 	genvar i;
 	generate
 		for(i = 1; i<64; i++)
 		begin
-			alu1bit (.a(a[i]), .b(b[i]), .cin(midCout[i-1]), .op(op), .s(s[i]), .cout(midCout[i]));
+			alu1bit inst(.a(a[i]), .b(b[i]), .cin(midCout[i-1]), .op(op), .s(s[i]), .cout(midCout[i]));
 		end
 	
 	
